@@ -1,7 +1,7 @@
 package practice_240612.car;
 
 public class Car {
-	//protected String company = "weniv";
+	protected String company = "weniv";
 
 	private int speed;
 	private int gear;
