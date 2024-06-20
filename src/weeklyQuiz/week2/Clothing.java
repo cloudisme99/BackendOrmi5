@@ -10,7 +10,7 @@ public class Clothing extends Product {
 
 	@Override
 	public int calculatePrice(int price) {
-		if (size.equals("S") || size.equals("M") || size.equals("L")) {
+		if (size.equals("S") || size.equals("M")) {
 			return price;
 		} else {
 			return (int)(price * 1.1);
